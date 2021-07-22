@@ -1,0 +1,22 @@
+{
+  "name": "vuepress-homepage",
+  "version": "1.0.0",
+  "description": "Generate your homepage with VuePress",
+  "author": "www.7daw.cn",
+  "repository": "https://github.com/x7st17916881/blog",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+	"deploy": "bash deploy.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.14.5"
+  },
+  "dependencies": {
+    "markdown-it": "^8.4.1",
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-katex": "^2.0.3"
+  }
+}
